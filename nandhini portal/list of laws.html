@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Categories</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .law-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .law-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: calc(33.333% - 20px); /* 3 items per row with gap */
+            margin: 10px;
+            padding: 15px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .law-item:hover {
+            box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .law-item h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .law-item p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .law-item {
+                width: calc(50% - 20px); /* 2 items per row */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .law-item {
+                width: 100%; /* 1 item per row */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Law Categories</h1>
+        <div class="law-list">
+            <div class="law-item">
+                <h2>Criminal Law</h2>
+                <p>Criminal law involves prosecution by the government of a person for an act that has been classified as a crime.</p>
+            </div>
+            <div class="law-item">
+                <h2>Property Law</h2>
+                <p>Property law governs the ownership and use of property.</p>
+            </div>
+            <div class="law-item">
+                <h2>Civil Law</h2>
+                <p>Civil law deals with disputes between individuals or organizations.</p>
+            </div>
+            <div class="law-item">
+                <h2>Contract Law</h2>
+                <p>Contract law regulates the exchange of promises between parties.</p>
+            </div>
+            <div class="law-item">
+                <h2>Family Law</h2>
+                <p>Family law covers matters such as marriage, divorce, and child custody.</p>
+            </div>
+            <div class="law-item">
+                <h2>Constitutional Law</h2>
+                <p>Constitutional law focuses on the interpretation and implementation of a country's constitution.</p>
+            </div>
+            <div class="law-item">
+                <h2>International Law</h2>
+                <p>International law governs relations between sovereign states and international organizations.</p>
+            </div>
+            <div class="law-item">
+                <h2>Administrative Law</h2>
+                <p>Administrative law oversees the actions of governmental agencies.</p>
+            </div>
+            <div class="law-item">
+                <h2>Energy Law</h2>
+                <p>Energy law governs the use of energy resources.</p>
+            </div>
+            <div class="law-item">
+                <h2>Private Law</h2>
+                <p>Private law deals with relationships between individuals, such as contracts and torts.</p>
+            </div>
+            <div class="law-item">
+                <h2>Legal Profession</h2>
+                <p>The legal profession encompasses those who practice law, including lawyers and judges.</p>
+            </div>
+            <div class="law-item">
+                <h2>Military Law</h2>
+                <p>Military law applies to members of the armed forces.</p>
+            </div>
+            <div class="law-item">
+                <h2>Tort Law</h2>
+                <p>Tort law provides remedies for civil wrongs not arising out of contractual obligations.</p>
+            </div>
+            <div class="law-item">
+                <h2>Labour Law</h2>
+                <p>Labour law governs the relationship between employers and employees.</p>
+            </div>
+            <div class="law-item">
+                <h2>Hindu Law</h2>
+                <p>Hindu law governs the legal affairs of Hindu individuals and communities.</p>
+            </div>
+            <div class="law-item">
+                <h2>Judiciary</h2>
+                <p>The judiciary interprets and applies the law in legal cases.</p>
+            </div>
+            <div class="law-item">
+                <h2>Legal Aid</h2>
+                <p>Legal aid is assistance given to people who are unable to afford legal representation.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
